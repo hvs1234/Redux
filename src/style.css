@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body {
+    background: lightgrey;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Calibri';
+    font-size: 6rem;
+    font-weight: 500;
+    color: rgb(66, 65, 65);
+}
+h3 {
+    font-family: 'Calibri';
+    font-size: 5rem;
+    font-weight: 500;
+    color: rgb(66, 65, 65);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 10%;
+}
+.counter-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+.btn {
+    padding: 1rem 2rem;
+    background: skyblue;
+    border: 0;
+    outline: 0;
+    font-size: 3rem;
+    border: 0.5px solid black;
+    cursor: pointer;
+}
+.input {
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 3rem;
+    max-width: 20%;
+    outline: 0;
+    border: 0;
+    border: 0.5px solid black;
+}
